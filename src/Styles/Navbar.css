@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url('../Assets/font/helvetica-rounded-bold-5871d05ead8de.otf') format('otf');
+  }
+body,a,p,h1,h2,h3,h4,h5,li{
+     font-family: 'helvetica';
+}
+
+.bg-prime{
+    background-color: #21558b;
+}
+.bg-primer{
+    background-color: #f8991d;
+}
+.color-prime{
+    color: #21558b;
+}
+.color-primer{
+    color: #f8991d;
+}
+.dark-color{
+    background-color: #575759;
+}
+.transparent{
+    background-color: rgb(0,0,0,0.8);
+}
+.btn-new{
+    background-color: #f8991d;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.nav-item{
+    padding-right: 10px;
+}
+
+.nav-item > a {
+    color: #2a2929;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-item > a:hover {
+    transform: translateY(-3px);
+    text-transform: capitalize;
+  }
+  .nav-item > a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color:#f8991d;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-item >a:hover::before {
+    transform: scaleY(1);
+  }
