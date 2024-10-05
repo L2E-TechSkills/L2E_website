@@ -1,0 +1,17 @@
+.footer_bg{
+    background-color: #0e0f20;
+    position: relative;
+    top: 100px;
+}
+h1,p,a{
+    color:#f2ede4;
+}
+.logo{
+    height: auto;
+    width: 150px;
+}
+.subscribe_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

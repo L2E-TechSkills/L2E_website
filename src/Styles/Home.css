@@ -1,0 +1,53 @@
+.img{
+    position: relative;
+    top: 6rem;
+    height: 550px;
+    border-radius: 30px;
+    background: url(../Assets/happy-indian-woman-working-laptop-freelancer-work-from-home-digital-india-concept_846334-1077.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: left;
+}
+.content{
+    position: absolute;
+    right: 0;
+    height: inherit;
+    width: 40%;
+    border-radius: 0px 30px 30px 0px;
+    background: #014671;
+    padding: 70px 50px;
+}
+.heading{
+    color: #e8f0f8;
+    line-height: 80px;
+    font-size: 58px;
+    font-weight: 800;
+    margin-right: 40px;
+}
+.head-span{
+    color: #e38c1b;
+    text-transform: capitalize;
+}
+.para{
+    line-height: 30px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(229, 229, 232);
+}
+.explore{
+    background-color: #e8f0f8;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #00253d;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.explore:hover{
+    background-color: #00253d;
+}

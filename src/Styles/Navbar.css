@@ -1,9 +1,28 @@
 @font-face {
     font-family: 'helvetica';
     src: url('../Assets/font/helvetica-rounded-bold-5871d05ead8de.otf') format('otf');
+    src: url("../Assets/font/Helvetica-Bold.ttf") format("ttf");
+    src: url("../Assets/font/Helvetica-BoldOblique.ttf") format("ttf");
+    src: url("../Assets/font/helvetica-compressed-5871d14b6903a.otf") format("otf");
+    src: url("../Assets/font/helvetica-light-587ebe5a59211.ttf") format("ttf");
+    src: url("../Assets/font/Helvetica-Oblique.ttf") format("ttf");
+    src: url("../Assets/font/Helvetica.otf") format("otf");
+    src: url("../Assets/font/Helvetica\ Neue\ LTW0697BlkCnObl.ttf") format("ttf");
+    src: url("../Assets/font/Helvetica\ Neue\ Medium\ Extended.ttf") format("ttf");
+    src: url("../Assets/font/Helvetica\ Neue\ W01\ 66\ Medium\ It.ttf") format("ttf");
+    src: url("../Assets/font/Helvetica\ NeueLTW0693BlkExtObl.ttf") format("ttf");
+}
+  body{
+    padding: 0px 15px;
   }
 body,a,p,h1,h2,h3,h4,h5,li{
      font-family: 'helvetica';
+     font-variant: normal;
+     font-weight: 800;
+    
+}
+nav{
+  background-color: #f2ede4;
 }
 
 .bg-prime{
@@ -13,10 +32,21 @@ body,a,p,h1,h2,h3,h4,h5,li{
     background-color: #f8991d;
 }
 .color-prime{
-    color: #21558b;
+    color: #21558b !important;
 }
 .color-primer{
     color: #f8991d;
+}
+.dark{
+  color: #2a2929;
+}
+.simple-line-icons--menu {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 1024'%3E%3Cpath fill='black' d='M27 193.6c-8.2-8.2-12.2-18.6-12.2-31.2s4-23 12.2-31.2S45.6 119 58.2 119h912.4c12.6 0 23 4 31.2 12.2s12.2 18.6 12.2 31.2s-4 23-12.2 31.2s-18.6 12.2-31.2 12.2H58.2c-12.6 0-23-4-31.2-12.2m974.8 285.2c8.2 8.2 12.2 18.6 12.2 31.2s-4 23-12.2 31.2s-18.6 12.2-31.2 12.2H58.2c-12.6 0-23-4-31.2-12.2S14.8 522.6 14.8 510s4-23 12.2-31.2s18.6-12.2 31.2-12.2h912.4c12.6 0 23 4 31.2 12.2m0 347.4c8.2 8.2 12.2 18.6 12.2 31.2s-4 23-12.2 31.2s-18.6 12.2-31.2 12.2H58.2c-12.6 0-23-4-31.2-12.2S14.8 870 14.8 857.4s4-23 12.2-31.2S45.6 814 58.2 814h912.4c12.6 0 23 4.2 31.2 12.2'/%3E%3C/svg%3E");
 }
 .dark-color{
     background-color: #575759;
@@ -26,18 +56,21 @@ body,a,p,h1,h2,h3,h4,h5,li{
 }
 .btn-new{
     background-color: #f8991d;
-    color: white;
+    color: #e8f0f8;
     padding: 10px 30px;
     border-radius: 5px;
     font-weight: bold;
 }
-.nav-item{
-    padding-right: 10px;
+.nav-item {
+    padding-right: 10px !important;
 }
-
+.nav-item:last-child{
+  padding-right: 0px !important;
+}
 .nav-item > a {
-    color: #2a2929;
-    font-weight: 500;
+    color: #00253d;
+    font-weight: 600;
+    font-size: 17px;
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 5px;
@@ -49,6 +82,11 @@ body,a,p,h1,h2,h3,h4,h5,li{
   .nav-item > a:hover {
     transform: translateY(-3px);
     text-transform: capitalize;
+  }
+  .nav-item > button:hover {
+    text-transform: capitalize;
+    color: white;
+    background-color: #f8991d;
   }
   .nav-item > a::before {
     content: "";
@@ -67,3 +105,4 @@ body,a,p,h1,h2,h3,h4,h5,li{
   .nav-item >a:hover::before {
     transform: scaleY(1);
   }
+
