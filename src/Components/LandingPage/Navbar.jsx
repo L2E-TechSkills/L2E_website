@@ -40,7 +40,7 @@ const Navbar = () => {
                                     <a class="nav-link active color-prime" aria-current="page" href="#">Contact Us</a>
                                 </li>
                             </ul>
-                            <button class="btn btn-new" type="submit">Enquire Now!</button>
+                            <button class="btn-new border-0" type="submit">Enquire Now!</button>
                             
                         </div>
                     </div>

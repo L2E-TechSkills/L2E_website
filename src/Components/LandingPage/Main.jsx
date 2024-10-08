@@ -4,17 +4,19 @@ import Home from './Home'
 import About from './About'
 import Footer from './Footer'
 import Enquiry from './Enquiry'
+import Service from './Service'
 
 
 const Main = () => {
   return (
     <div>
-        <div className="container-fluid">
+        <div className="container-fluid p-0">
             <Navbar/>
             <Home/>
-            <About/>
+            {/* <Service/> */}
+            {/* <About/> */}
             <Enquiry/>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     </div>
   )
